@@ -1,0 +1,57 @@
+@media (max-width: 1300px){
+    .about-img{
+        width: 100%;
+    }
+    .about-item {
+        width: 50%;
+        float: left;
+    }
+}
+@media (max-width: 999px){
+    .service-item {
+        width: 50%;
+    }
+    .about-item {
+        width: 100%;
+    }
+}
+ 
+ @media (min-width: 691px) {
+   
+    .hm, input{
+        display: none;
+    }
+    input{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    
+ }
+ @media (max-width: 690px) {
+   
+    .main-menu ul{
+        display: none;
+        margin-top: 30px;
+        text-align: right;
+    }
+    input{
+        opacity: 0;
+    }
+    .main-menu ul li{
+        
+        display: block;
+        
+    }
+    .banner {
+        padding: 100px 0;
+    }
+ }
+ @media (max-width: 500px){
+    .service-item {
+        width: 100%;
+    }
+    .contuct-item{
+        width: 100%;
+    }
+}
